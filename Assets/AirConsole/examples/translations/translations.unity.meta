@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7d28a38601c2f4547b1ecac64cf96761
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/translations/translations.unity
+  uploadId: 740528

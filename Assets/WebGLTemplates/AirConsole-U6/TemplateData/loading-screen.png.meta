@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92eeddf0b218243b29fca6fb0aa6ac29
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/WebGLTemplates/AirConsole-U6/TemplateData/loading-screen.png
+  uploadId: 740528

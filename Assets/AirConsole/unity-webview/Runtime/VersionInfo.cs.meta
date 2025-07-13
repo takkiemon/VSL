@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 95e821749d58e446aba7fcb97de03a2a
+timeCreated: 1696508229
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/unity-webview/Runtime/VersionInfo.cs
+  uploadId: 740528

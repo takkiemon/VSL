@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cdc39dd093dea4a30b1e891b3940e458
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/WebGLTemplates/AirConsole-U6/index.html
+  uploadId: 740528

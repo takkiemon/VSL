@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5582f43d978843619f1ea79d7f7b451
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/Third-Party Notices.txt
+  uploadId: 740528

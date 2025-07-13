@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6e1eab715b72465cb807b5fae4b2225
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/unity-webview/LICENSE.md
+  uploadId: 740528

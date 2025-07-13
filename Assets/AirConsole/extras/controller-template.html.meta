@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 898f8131596954b47a4dd4ba0110edca
+timeCreated: 1437829347
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/extras/controller-template.html
+  uploadId: 740528

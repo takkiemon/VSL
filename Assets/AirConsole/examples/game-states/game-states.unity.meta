@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0e5f4cea225b44e8290563cbebbb6a5c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/game-states/game-states.unity
+  uploadId: 740528

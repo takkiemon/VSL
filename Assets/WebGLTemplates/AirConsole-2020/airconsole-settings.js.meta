@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af88984e335c547afaeb9444273d2151
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/WebGLTemplates/AirConsole-2020/airconsole-settings.js
+  uploadId: 740528

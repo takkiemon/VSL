@@ -1,0 +1,4 @@
+repository "VSL 2025-07-06_20-36-34/VSL@1862177@cloud"
+  path "/"
+    br "/main"
+    co "/main"

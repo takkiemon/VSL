@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 627c37fd2703a4e51bb7c6f17da8d20a
+timeCreated: 1478250614
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/extras/HighScoreHelper.cs
+  uploadId: 740528

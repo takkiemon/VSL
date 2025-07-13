@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2b2fe4dcc4344e349cf958f3fb62ffa
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/unity-webview/Editor/Webview.Editor.asmdef
+  uploadId: 740528

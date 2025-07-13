@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6964da17416934c91b9a4e29f8c2d16d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/resources/Art/Materials/transparent.mat
+  uploadId: 740528

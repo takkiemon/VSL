@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a7484c3ec7c6b424088f06baa57602bb
+timeCreated: 1437574812
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/scripts/editor/WebListener.cs
+  uploadId: 740528

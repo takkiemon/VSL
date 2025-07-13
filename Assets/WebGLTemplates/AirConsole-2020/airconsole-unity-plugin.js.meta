@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33d913e4bc33f4477ba094d2520f3670
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/WebGLTemplates/AirConsole-2020/airconsole-unity-plugin.js
+  uploadId: 740528

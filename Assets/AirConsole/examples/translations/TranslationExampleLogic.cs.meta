@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 06ed25181fa994159af2bba512317a6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/translations/TranslationExampleLogic.cs
+  uploadId: 740528

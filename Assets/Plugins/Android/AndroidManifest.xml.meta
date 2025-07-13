@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3520f69b905ae43a9bdcda1ef95b5ce5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/Plugins/Android/AndroidManifest.xml
+  uploadId: 740528

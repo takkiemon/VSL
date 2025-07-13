@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 096ffefe818ad4bfcbe4b1438aee72ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/resources/Art/Materials/Sphere.mat
+  uploadId: 740528

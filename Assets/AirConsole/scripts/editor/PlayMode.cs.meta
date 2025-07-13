@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f62f6a50dc6e20241aca97d01fbb2881
+timeCreated: 1437762758
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/scripts/editor/PlayMode.cs
+  uploadId: 740528

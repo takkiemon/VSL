@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6c3b78438bdca145a9b6283728943bb
+timeCreated: 1439513343
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/README.txt
+  uploadId: 740528

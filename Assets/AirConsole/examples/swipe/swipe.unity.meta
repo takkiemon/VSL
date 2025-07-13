@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a8e8f0a8b5a9741c683915ad339b7dd7
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/swipe/swipe.unity
+  uploadId: 740528

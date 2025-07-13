@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a394242111349431c998279762a00b29
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/WebGLTemplates/AirConsole/rate-limiter.js
+  uploadId: 740528

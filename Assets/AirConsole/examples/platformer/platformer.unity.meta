@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1c6c76d1e441496eb198de3564ddb56
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/platformer/platformer.unity
+  uploadId: 740528

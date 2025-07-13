@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a07a0f17666ca403baa269023708928a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/scripts/editor/PreBuildProcessing.cs
+  uploadId: 740528

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ad7ea0ffc1224648b158fd41c19d78b9
+timeCreated: 1733323668
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/scripts/editor/ProjectConfigurationCheck.cs
+  uploadId: 740528

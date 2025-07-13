@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4a33a98dbad440d98fc8f9e7062d62c
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/game-states/controller-game-states.html
+  uploadId: 740528

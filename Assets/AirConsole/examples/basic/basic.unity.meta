@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be2892f0848650f4fa6714ec6d9100bf
+timeCreated: 1435580098
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/examples/basic/basic.unity
+  uploadId: 740528

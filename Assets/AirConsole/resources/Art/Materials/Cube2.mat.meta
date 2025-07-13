@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 580ab468a3a9042538a434a167f03273
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/resources/Art/Materials/Cube2.mat
+  uploadId: 740528

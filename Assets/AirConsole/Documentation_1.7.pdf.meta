@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6952db28ad1934cb59d4f40e6f874ac0
+timeCreated: 1464704989
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 42776
+  packageName: AirConsole
+  packageVersion: 2.5.7
+  assetPath: Assets/AirConsole/Documentation_1.7.pdf
+  uploadId: 740528
