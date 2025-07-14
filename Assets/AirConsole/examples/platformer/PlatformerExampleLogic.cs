@@ -5,7 +5,7 @@ using UnityEngine;
 using NDream.AirConsole;
 using Newtonsoft.Json.Linq;
 
-public class VSLGameController : MonoBehaviour {
+public class PlatformerExampleLogic : MonoBehaviour {
 
 	public GameObject playerPrefab;
 

@@ -14,32 +14,33 @@
   .button{
     background: #3B3B3B;
     font-size: 14px;
-    padding: 5px 10px 5px 10px;
-    border: solid #1f1f1f 2px;
+    /* padding: 5px 10px 5px 10px; */
+    border: solid #FFFF00 2px;
     height: 100%;
     position: absolute;
   }
 
   #left-button{
   	left: 0;
-  	width: 25%;
-  	height: 100%;
+  	width: 50%;
+  	height: 50%;
   }
 
   #right-button{
-  	left: 25%;
-  	width: 25%;
-  	height: 100%;
+  	left: 50%;
+    top: 50%;
+  	width: 50%;
+  	height: 50%;
   }
 
-  #jump-button{
+  #up-button{
 	right: 0;
   	bottom: 0;
   	width: 50%;
   	height: 50%;
   }
 
-  #interact-button{
+  #down-button{
   	right: 0;
   	top: 0;
   	width: 50%;
@@ -107,7 +108,7 @@
   <div id="background"></div>
   <div class="button" id="left-button" ontouchstart="window.app.sendMessageToScreen('left')" ontouchend="window.app.sendMessageToScreen('left-up')"></div>
   <div class="button" id="right-button" ontouchstart="window.app.sendMessageToScreen('right')" ontouchend="window.app.sendMessageToScreen('right-up')"></div>
-  <div class="button" id="jump-button" ontouchstart="window.app.sendMessageToScreen('jump')"></div>
-  <div class="button" id="interact-button" ontouchstart="window.app.sendMessageToScreen('interact')"></div>
+  <!-- <div class="button" id="up-button" ontouchstart="window.app.sendMessageToScreen('up')"></div>
+  <div class="button" id="down-button" ontouchstart="window.app.sendMessageToScreen('down')"></div> -->
 </body>
 </html>

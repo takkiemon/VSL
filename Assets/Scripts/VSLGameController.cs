@@ -9,7 +9,7 @@ public class VSLGameController : MonoBehaviour
 {
     public GameObject playerPrefab;
 
-    public Dictionary<int, PlayerController> players = new Dictionary<int, PlayerController>();
+    public Dictionary<int, VSLPlayerController> players = new Dictionary<int, VSLPlayerController>();
 
     void Awake()
     {
@@ -43,12 +43,12 @@ public class VSLGameController : MonoBehaviour
 
         //Instantiate player prefab, store device id + player script in a dictionary
         GameObject newPlayer = Instantiate(playerPrefab, transform.position, transform.rotation) as GameObject;
-        players.Add(deviceID, newPlayer.GetComponent<PlayerController>());
+        players.Add(deviceID, newPlayer.GetComponent<VSLPlayerController>());
     }
 
     void OnMessage(int from, JToken data)
     {
-        Debug.Log("message: " + data);
+        Debug.Log($"{from}'s message: {data}");
 
         //When I get a message, I check if it's from any of the devices stored in my device Id dictionary
         if (players.ContainsKey(from) && data["action"] != null)
