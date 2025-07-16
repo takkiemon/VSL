@@ -27,23 +27,29 @@ public class VSLPlayerController : MonoBehaviour
 
         switch (input)
         {
+            case "up":
+                movingUp = true;
+                break;
+            case "un-up":
+                movingUp = false;
+                break;
             case "right":
                 movingRight = true;
+                break;
+            case "un-right":
+                movingRight = false;
+                break;
+            case "down":
+                movingDown = true;
+                break;
+            case "un-down":
+                movingDown = false;
                 break;
             case "left":
                 movingLeft = true;
                 break;
-            case "right-up":
-                movingRight = false;
-                break;
-            case "left-up":
+            case "un-left":
                 movingLeft = false;
-                break;
-            case "up":
-                movingUp = true;
-                break;
-            case "down":
-                movingDown = true;
                 break;
         }
     }
@@ -62,6 +68,14 @@ public class VSLPlayerController : MonoBehaviour
         else if (!movingLeft && movingRight)
         {
             rigidBody.MovePosition(rigidBody.position + new Vector3(playerSpeed, 0, 0));
+        }
+        if (movingUp && !movingDown)
+        {
+            rigidBody.MovePosition(rigidBody.position + new Vector3(0, 0, playerSpeed));
+        }
+        else if (!movingUp && movingDown)
+        {
+            rigidBody.MovePosition(rigidBody.position + new Vector3(0, 0, -playerSpeed));
         }
     }
 
