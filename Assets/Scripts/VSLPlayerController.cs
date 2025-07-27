@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VSLPlayerController : MonoBehaviour
 {
-
+    public GameObject bulletPrefab;
     private Rigidbody rigidBody;
 
     bool movingLeft;
@@ -20,6 +20,7 @@ public class VSLPlayerController : MonoBehaviour
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
+        StartCoroutine(Shoot());
     }
 
     public void ButtonInput(string input)
@@ -79,20 +80,12 @@ public class VSLPlayerController : MonoBehaviour
         }
     }
 
-    //Track if the player capsule is currently inside the transparent sphere or not
-    void OnTriggerEnter(Collider trigger)
+    IEnumerator Shoot()
     {
-        if (trigger.tag == "PlatformSphere")
+        while (true)
         {
-            isInSphere = true;
-        }
-    }
-
-    void OnTriggerExit(Collider trigger)
-    {
-        if (trigger.tag == "PlatformSphere")
-        {
-            isInSphere = false;
+            GameObject bullet = Instantiate(bulletPrefab, transform.position + transform.forward * .5f, Quaternion.identity);
+            yield return new WaitForSeconds(2f); // Delay between shots
         }
     }
 }

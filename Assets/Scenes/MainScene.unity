@@ -400,6 +400,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1f13dacfb447345a5bc8150bbcf908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerList: []
+  averageXPosition: 0
+  averageYPosition: 0
+  averageZPosition: 0
 --- !u!1 &947226449
 GameObject:
   m_ObjectHideFlags: 0
