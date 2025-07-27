@@ -4,12 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using NDream.AirConsole;
 using Newtonsoft.Json.Linq;
+using System;
 
 public class VSLGameController : MonoBehaviour
 {
     public GameObject playerPrefab;
-
+    public CameraController mainCamera;
     public Dictionary<int, VSLPlayerController> players = new Dictionary<int, VSLPlayerController>();
+
+    private List<GameObject> _playerObjectList = new List<GameObject>();
 
     void Awake()
     {
@@ -44,12 +47,13 @@ public class VSLGameController : MonoBehaviour
         //Instantiate player prefab, store device id + player script in a dictionary
         GameObject newPlayer = Instantiate(playerPrefab, transform.position, transform.rotation) as GameObject;
         players.Add(deviceID, newPlayer.GetComponent<VSLPlayerController>());
+        _playerObjectList.Add(newPlayer);
+        var newPlayerList = new List<GameObject>(_playerObjectList);
+        mainCamera.SetPlayerList(newPlayerList);
     }
 
     void OnMessage(int from, JToken data)
     {
-        Debug.Log($"{from}'s message: {data}");
-
         //When I get a message, I check if it's from any of the devices stored in my device Id dictionary
         if (players.ContainsKey(from) && data["action"] != null)
         {
@@ -66,6 +70,12 @@ public class VSLGameController : MonoBehaviour
             AirConsole.instance.onReady -= OnReady;
             AirConsole.instance.onConnect -= OnConnect;
         }
+    }
+
+    private void OnDrawGizmos()
+    {
+        // This Gizmo draws a cube at the spawn position of the players
+        Gizmos.DrawCube(transform.position, new Vector3(.5f, .5f, .5f));
     }
 }
 #endif
