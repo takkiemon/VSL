@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class VSLPlayerController : MonoBehaviour
 {
-    public GameObject bulletPrefab;
     private Rigidbody rigidBody;
 
     bool movingLeft;
@@ -15,12 +14,9 @@ public class VSLPlayerController : MonoBehaviour
     private float playerSpeed = 0.1f;
     private float jumpForce = 350f;
 
-    private bool isInSphere;
-
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
-        StartCoroutine(Shoot());
     }
 
     public void ButtonInput(string input)
@@ -77,15 +73,6 @@ public class VSLPlayerController : MonoBehaviour
         else if (!movingUp && movingDown)
         {
             rigidBody.MovePosition(rigidBody.position + new Vector3(0, 0, -playerSpeed));
-        }
-    }
-
-    IEnumerator Shoot()
-    {
-        while (true)
-        {
-            GameObject bullet = Instantiate(bulletPrefab, transform.position + transform.forward * .5f, Quaternion.identity);
-            yield return new WaitForSeconds(2f); // Delay between shots
         }
     }
 }

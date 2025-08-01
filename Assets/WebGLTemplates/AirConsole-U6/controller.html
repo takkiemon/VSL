@@ -20,36 +20,35 @@
     position: absolute;
   }
 
-  #left-button{
-  	left: 0;
-  	width: 50%;
-  	height: 50%;
+  #up-button{
+	  left: 33%;
+  	width: 33%;
+  	height: 33%;
   }
 
   #right-button{
-  	left: 50%;
-    top: 50%;
-  	width: 50%;
-  	height: 50%;
-  }
-
-  #up-button{
-	right: 0;
-  	bottom: 0;
-  	width: 50%;
-  	height: 50%;
+  	top: 33%;
+    left: 67%;
+  	width: 33%;
+  	height: 33%;
   }
 
   #down-button{
-  	right: 0;
-  	top: 0;
-  	width: 50%;
-  	height: 50%;
+  	top: 67%;
+    left: 33%;
+  	width: 33%;
+  	height: 33%;
+  }
+
+  #left-button{
+  	top: 33%;
+  	width: 33%;
+  	height: 33%;
   }
 
   .button-text{
     position: absolute;
-    color: white;”
+    color: white;
     font-family: sans-serif;
     text-align: center;
     pointer-events: none;
@@ -106,9 +105,9 @@
 </head>
 <body onload="window.app = new App()">
   <div id="background"></div>
-  <div class="button" id="left-button" ontouchstart="window.app.sendMessageToScreen('left')" ontouchend="window.app.sendMessageToScreen('left-up')"></div>
-  <div class="button" id="right-button" ontouchstart="window.app.sendMessageToScreen('right')" ontouchend="window.app.sendMessageToScreen('right-up')"></div>
-  <!-- <div class="button" id="up-button" ontouchstart="window.app.sendMessageToScreen('up')"></div>
-  <div class="button" id="down-button" ontouchstart="window.app.sendMessageToScreen('down')"></div> -->
+  <div class="button" id="left-button" ontouchstart="window.app.sendMessageToScreen('left')" ontouchend="window.app.sendMessageToScreen('un-left')"></div>
+  <div class="button" id="right-button" ontouchstart="window.app.sendMessageToScreen('right')" ontouchend="window.app.sendMessageToScreen('un-right')"></div>
+  <div class="button" id="up-button" ontouchstart="window.app.sendMessageToScreen('up')" ontouchend="window.app.sendMessageToScreen('un-up')"></div>
+  <div class="button" id="down-button" ontouchstart="window.app.sendMessageToScreen('down')" ontouchend="window.app.sendMessageToScreen('un-down')"></div>
 </body>
 </html>
