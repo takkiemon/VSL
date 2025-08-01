@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VSLPlayerController : MonoBehaviour
+public class VSLPlayerController : MonoBehaviour, IDamageables
 {
     private Rigidbody rigidBody;
 
